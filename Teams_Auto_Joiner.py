@@ -12,7 +12,7 @@ import json
 my_date = date.today()
 
 Day = str(my_date.weekday())
-with open("config.json") as json_data_file:
+with open("E:/config.json") as json_data_file:
     data = json.load(json_data_file)
 
 while Day in data["class_days"]:
